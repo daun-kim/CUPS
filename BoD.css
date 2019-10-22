@@ -1,0 +1,71 @@
+body {
+  font-family: 'Lato', sans-serif;
+  }
+  
+  .fa-navicon {
+      color: white;
+  }
+  
+  .jumbotron {
+      /* background-image: url("passion.jpeg"); 
+      background-size: 100% 100%; */
+      background-color: #E8E8E8;
+  }
+  
+  .rounded-circle {
+      width: 15rem;
+      height: 15rem;
+      padding-top: 0;
+  }
+  
+  nav .navbar-nav a{
+    color: white !important;
+    }
+  
+  .navbar-text, a {
+      color: white !important;
+      margin-left: 10px;
+  }
+  
+  a:hover {
+    color: yellow !important;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  
+.container h1 {
+  font-family: 'Cookie', cursive;
+  border-bottom: 2px solid black;
+}
+  .separator--line {
+      border: 0;
+      border-bottom: 5px solid black;
+      width: 0;
+      -webkit-animation: separator-width 1s ease-out forwards;
+              animation: separator-width 1s ease-out forwards;
+    }
+    
+    @-webkit-keyframes separator-width {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    
+    @keyframes separator-width {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+  

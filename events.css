@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.rounded-circle {
+    width: 15rem;
+    height: 15rem;
+    padding-top: 0;
+}
+
+nav .navbar-nav a{
+    color: white !important;
+}
+      
+.navbar-text, a {
+    color: white;
+    margin-left: 10px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+  }
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+ 
+
+.card {
+    width: 10%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.modal-dialog img {
+    height: 100px;
+    width: 100px;
+}
+
+.modal-body, a {
+    color: black;
+}
+a:hover {
+color: yellow !important;
+}
+
+
+@font-face {
+    font-family: "Lato";
+    src: url('698242188-Lato-Bla.eot');
+    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+    url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+    url('698242188-Lato-Bla.woff') format('woff'),
+    url('698242188-Lato-Bla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
